@@ -1,7 +1,16 @@
 .tasks {
   /* sample */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-
+.tasks>ul{
+  display: flex;
+}
 .empty {
   /* sample */
+}
+#logo{
+  width:100px;
+  height:100px;
 }
